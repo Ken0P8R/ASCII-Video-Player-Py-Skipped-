@@ -44,7 +44,7 @@ This Python script reads a video file (<code>video.mp4</code>), converts each fr
 
 <h2>🛠️ Usage</h2>
 
-<pre><code>python your_script.py
+<pre><code>python ASCIIVidPlayerSkip.py
 </code></pre>
 
 Make sure:
