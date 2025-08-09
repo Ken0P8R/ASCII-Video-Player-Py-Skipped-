@@ -41,7 +41,7 @@ try:
 
         current_pos = int(cap.get(cv2.CAP_PROP_POS_FRAMES))
 
-        # Skip frame jika kita tertinggal
+        # Skip frame
         if target_frame_index > current_pos:
             cap.set(cv2.CAP_PROP_POS_FRAMES, target_frame_index)
 
